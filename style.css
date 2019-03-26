@@ -130,10 +130,8 @@ hr {
 }
 
 .projects {
-    display: flex;
-    align-items: center;
     margin-bottom: 100px;
-    justify-content: space-around;
+    margin-left: 50px;
 }
 
 .card-body {
@@ -156,4 +154,10 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.project {
+    margin: 30px 0 30px 0;
+    width: 18rem;
+    max-width: 100%;
 }
