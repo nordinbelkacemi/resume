@@ -1,0 +1,159 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 250px;
+    flex-shrink: 0;
+    height: 250px;
+    background-image: url("images/head_shot.jpg");
+    background-size: cover;
+    margin-right: 40px;
+}
+
+.basic-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 25px 0 25px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-phone {
+    margin-right: 10px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.fa-github {
+    margin-right: 10px; 
+}
+
+.contact {
+    display: flex;
+    opacity: 0.8;
+    font-weight: 300;
+    margin: 15px 0 15px 0;
+}
+
+.details {
+    margin: 0 25px 0 25px;
+}
+
+.section-title {
+    font-weight: 300;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin: 50px 0 10px 0;
+}
+
+.title {
+    margin-left: 15px;
+}
+
+.link {
+    color: rgba(0,0,0,0.8);
+}
+
+.link:hover {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 15px 30px;
+    padding: 20px 20px 20px 20px;
+    border: rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.card-description {
+    font-weight: 300;
+}
+
+.card-tag {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5)
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.skill-name {
+    margin-right: 10px;
+}
+
+.skills-list {
+    margin: 0 0 15px 30px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.gh-link {
+    color: rgba(0,0,0,0.7);
+}
+
+.gh-link:hover {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+.card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
