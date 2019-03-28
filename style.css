@@ -1,66 +1,48 @@
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
 .avatar {
     border-radius: 50%;
     width: 250px;
-    flex-shrink: 0;
     height: 250px;
     background-image: url("images/head_shot.jpg");
     background-size: cover;
-    margin-right: 40px;
 }
 
-.basic-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 25px 0 25px;
-}
-
-.name {
+.my-name {
     font-weight: 700;
     font-size: 30px;
-}
-
-.phone {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.fa-phone {
-    margin-right: 10px;
-}
-
-.email {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 40px;
-}
-
-.fa-envelope {
-    margin-right: 10px;
-}
-
-.github {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 40px;
-}
-
-.fa-github {
-    margin-right: 10px; 
+    margin: 20px 0 20px 0;
 }
 
 .contact {
     display: flex;
-    opacity: 0.8;
+    justify-content: flex-start;
+    align-items: center;
     font-weight: 300;
-    margin: 15px 0 15px 0;
+    color: rgba(0,0,0,0.6);
+    margin: 10px 0 0 0;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.link {
+    color: rgba(0,0,0,0.6);
+}
+
+.link:hover {
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+.bio {
+    text-align: -webkit-left;
+    margin-top: 20px;
+}
+
+.basic-info {
+    text-align: -webkit-center;
+    margin: 25px;
+    align-items: center;
 }
 
 .details {
@@ -79,15 +61,6 @@ body {
     margin-left: 15px;
 }
 
-.link {
-    color: rgba(0,0,0,0.8);
-}
-
-.link:hover {
-    color: rgba(0,0,0,1);
-    text-decoration: none;
-}
-
 .entry {
     display: flex;
     flex-direction: column;
@@ -103,7 +76,6 @@ hr {
 
 .card-title {
     font-weight: 700;
-    font-size: 18px;
     margin-right: 50px;
 }
 
@@ -132,6 +104,7 @@ hr {
 
 .projects {
     margin-bottom: 100px;
+    text-align: -webkit-center;
 }
 
 .card-body {
@@ -160,4 +133,5 @@ hr {
     margin: 30px 0 30px 0;
     width: 18rem;
     max-width: 100%;
+    text-align: -webkit-left;
 }
