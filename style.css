@@ -103,6 +103,7 @@ hr {
 
 .card-title {
     font-weight: 700;
+    font-size: 18px;
     margin-right: 50px;
 }
 
@@ -131,7 +132,6 @@ hr {
 
 .projects {
     margin-bottom: 100px;
-    margin-left: 50px;
 }
 
 .card-body {

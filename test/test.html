@@ -5,18 +5,255 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="test_style.css">
 </head>
 <body>
     <div class="container">
-        <div class="row my-row">
-            <div class="col-sm-12 col-md-3 a">
+        <div class="row basic-info">
+            <div class="col-sm-12 col-md-5 col-lg-4 col-xl-3">
                 <div class="avatar"></div>
             </div>
-            <div class="col-sm-12 col-md-9 b">
-                text B
+            <div class="col-sm-12 col-md-7 col-lg-8 col-xl-9">
+                <div class="my-name">Nordin Belkacemi</div>
+                <div class="contact">
+                    <i class="fas fa-phone icon"></i>
+                    <div class="number">
+                        +36 70 677 7611
+                    </div>
+                </div>
+                <div class="contact">
+                    <i class="fas fa-envelope icon"></i>
+                    <div class="address">
+                        belkaceminordin@gmail.com
+                    </div>
+                </div>
+                <a href="https://github.com/nordinbelkacemi" class="contact github link">
+                    <i class="fab fa-github icon"></i>
+                    <div class="username">
+                        nordinbelkacemi
+                    </div>
+                </a>
+                <div class="bio">
+                    I am a university student transitioning from a mechatronics degree to a computer science degree. Still in school at
+                    the moment, my sights are on either part-time or summer internship positions at IT companies before I start my new
+                    degree. For the past year, I have been learning new skills related to coding and by far the most interesting field to me
+                    is that of A.I. and machine learning. At the moment, however, I would gladly work in any job where I
+                    can put any of my skills in tech to use in a professional setting.
+                </div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="section">
+                <div class="section-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="title">
+                        Education
+                    </div>
+                </div>
+                <hr>
+                <div class="entry">
+                    <div class="card-title">
+                        Budapest University of Technology and Economics
+                    </div>
+                    <div class="card-description">
+                        Mechatronics BSc.
+                    </div>
+                    <div class="card-tag">
+                        2015-present
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="card-title">
+                        American International School of Budapest
+                    </div>
+                    <div class="card-description">
+                        High School and IB Diploma with 42 points
+                    </div>
+                    <div class="card-tag">
+                        2012-2015
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="card-title">
+                        Coding Bootcamp in Montreal
+                    </div>
+                    <div class="card-description">
+                        Full Stack web development in Ruby on Rails
+                    </div>
+                    <div class="card-tag">
+                        Summer 2018
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-title">
+                    <i class="fas fa-briefcase"></i>
+                    <div class="title">
+                        Work Experience
+                    </div>
+                </div>
+                <hr>
+                <div class="entry">
+                    <div class="card-title">
+                        Ind-App Kft.
+                    </div>
+                    <div class="card-description">
+                        Ind-App is short for industrial applications: Design, supply and commissioning of heat exchangers for
+                        district heating and industrial applications. I am the owner of the company and a designer.
+                    </div>
+                    <div class="card-tag">
+                        2015-present
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="card-title">
+                        Volunteer work at Roskilde Festival (Denmark)
+                    </div>
+                    <div class="card-description">
+                        Counting and sorting used plastic cups for recycling.
+                    </div>
+                    <div class="card-tag">
+                        Summer 2017
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="card-title">
+                        Math tutoring
+                    </div>
+                    <div class="card-description">
+                        Mostly for graduating high school students
+                    </div>
+                    <div class="card-tag">
+                        2017-present
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-title">
+                    <i class="fas fa-tools"></i>
+                    <div class="title">
+                        Skills
+                    </div>
+                </div>
+                <hr>
+                <ul class="skills-list list-group">
+                    <li class="skill list-group-item">
+                        Python
+                    </li>
+                    <li class="skill list-group-item">
+                        Ruby
+                    </li>
+                    <li class="skill list-group-item">
+                        Ruby on Rails
+                    </li>
+                    <li class="skill list-group-item">
+                        C / C++
+                    </li>
+                    <li class="skill list-group-item">
+                        HTML, CSS, Sass, Javascript
+                    </li>
+                    <li class="skill list-group-item">
+                        Experience with Java
+                    </li>
+                    <li class="skill list-group-item">
+                        Teamwork
+                    </li>
+                    <li class="skill list-group-item">
+                        Git and Github
+                    </li>
+                    <li class="skill list-group-item">
+                        Experience with SQL, mySQL, SQLite and PostgreSQL
+                    </li>
+                    <li class="skill list-group-item">
+                        Experience with Octave and Matlab
+                    </li>
+                    <li class="skill list-group-item">
+                        Driven on optimizing algorithms
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-title">
+                    <i class="fas fa-rocket"></i>
+                    <div class="title">
+                        Some of my Projects
+                    </div>
+                </div>
+                <hr>
+                <div class="projects">
+                    <div class="container-fluid"></div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-lg-4">
+                            <div class="card project">
+                                <img src="../images/First GA.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head">
+                                        <h5 class="card-title">Path finding genetic algorithm</h5>
+                                        <a href="https://github.com/nordinbelkacemi/Path-finder-genetic-algorithm"
+                                            class="gh-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <p class="card-text">
+                                        Small project, written almost entirely in Ruby. I am currently writing more of these in
+                                        python as
+                                        well.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4">
+                            <div class="card project">
+                                <img src="../images/nutri.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head">
+                                        <h5 class="card-title">Nutri</h5>
+                                        <a href="https://github.com/nordinbelkacemi/nutri" class="gh-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <p class="card-text">
+                                        Final project of the Le Wagon bootcamp. This is a nutritional website we developed in a
+                                        team of 3
+                                        people
+                                        using the Ruby on Rails framework. I was in charge of most of the backend and did a fair
+                                        bit
+                                        front-end
+                                        on a
+                                        couple of pages.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-4">
+                            <div class="card project">
+                                <img src="../images/kresz.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="card-head">
+                                        <h5 class="card-title">Driver's license quiz program</h5>
+                                        <a href="https://github.com/nordinbelkacemi/kresz" class="gh-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <p class="card-text">
+                                        I was recently preparing for the driver's license theory exam, when I realized that I
+                                        can build a
+                                        tool
+                                        that helps me learn faster by just practicing test questions. I scraped the official
+                                        questions from
+                                        the
+                                        internet and coded a program that makes quizzes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
