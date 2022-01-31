@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tikz}
+\geometry{a4paper, left = 12mm, top = 12mm, right = 12mm, bottom = 20mm}
+
+\begin{document}
+
+\begin{tabular}{c p{110mm}}
+    \begin{minipage}{50mm}
+        \begin{center}
+            \begin{tikzpicture}
+                \clip (0,0)  circle (2cm) ;
+                \node[anchor=center] at (0,0) {\includegraphics[width=4cm]{../images/head_shot.jpg}};
+            \end{tikzpicture} \\
+            \vspace{5mm}
+            {\Large{Nordin Belkacemi}}
+        \end{center}
+    \end{minipage} & 
+    \begin{minipage}{110mm}
+        \begin{minipage}[c]{5mm}
+            \includegraphics[width=5mm]{../images/email.png}
+        \end{minipage}
+        \begin{minipage}[c]{100mm}
+            \href{mailto:belkaceminordin@gmail.com}{belkaceminordin@gmail.com}
+        \end{minipage} \\
+        \vspace{2mm} \\
+        \begin{minipage}[c]{5mm}
+            \includegraphics[width=5mm]{../images/world-wide-web.png}
+        \end{minipage}
+        \begin{minipage}[c]{100mm}
+            \href{https://nordinbelkacemi.github.io/resume}{nordinbelkacemi.github.io/resume}
+        \end{minipage} \\
+        \vspace{2mm} \\
+        I am a university student, who was formerly enrolled in a mechatronics degree, but made the switch to computer science. I speak fluent Hungarian, English, French and know a little bit of German. Nearing the end of my bachelor's degree, I am currently looking for a part-time job or internship in the field of AI. \\
+    \end{minipage}
+\end{tabular}
+
+\end{document}
