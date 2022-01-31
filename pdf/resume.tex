@@ -6,7 +6,10 @@
 \usepackage{tikz}
 \usepackage[super]{nth}
 \usepackage{xcolor}
+\usepackage{enumitem}
 \geometry{a4paper, left=12mm, top=12mm, right=12mm, bottom=20mm}
+
+\pagenumbering{gobble}
 
 \begin{document}
 
@@ -39,21 +42,115 @@
         I am a university student, who was formerly enrolled in a mechatronics degree, but made the switch to computer science. I speak fluent Hungarian, English, French and know a little bit of German. Now starting my \nth{6} semester, I am nearing the end of my bachelor's degree (expected to graduate in january 2023) and looking for a part-time job or internship in the field of AI.  \\
     \end{minipage}
 \end{tabular} \\
-\vspace{4mm}\\
+\vspace{5mm}\\
 \begin{minipage}[c]{7mm}
     \includegraphics[width=7mm]{../images/graduation-cap-solid.pdf}
 \end{minipage}
 \begin{minipage}[c]{100mm}
-    Education
+    {\large{Education}}
 \end{minipage} \\
 \hrule
-\vspace{4mm}
+\bigskip
 
 \noindent
-\textbf{Budapest University of Technology and Economics (BME)} - \color{gray} 2019-2023 \color{black}\\
-Computer Engineering BSc.\\
-\color{gray}
-2019-2023
-\medskip \\
+\textbf{Budapest University of Technology and Economics (BME)} \hspace{3mm} \color{gray} (2019-2023) \color{black} \\
+Computer Engineering BSc.
+\smallskip \\
+
+\noindent
+\textbf{Coding Bootcamp in Montreal} \hspace{3mm} \color{gray} (Summer 2018) \color{black} \\
+Full Stack Web Development in Ruby on Rails
+\smallskip \\
+
+\noindent
+\textbf{American International School of Budapest} \hspace{3mm} \color{gray} (2012-2015) \color{black} \\
+High School and IB Diploma
+\vspace{5mm}
+
+\noindent
+\begin{minipage}[c]{7mm}
+    \includegraphics[width=6mm]{../images/briefcase-solid.pdf}
+\end{minipage}
+\begin{minipage}[c]{100mm}
+    {\large{Work Experience}}
+\end{minipage} \\
+\hrule
+\bigskip
+
+\noindent
+\textbf{University teaching assistant at BME} \hspace{3mm} \color{gray} (2020 Fall semester) \color{black} \\
+I answered student's questions about assignents and graded final projects (basics of programming in C).
+\smallskip \\
+
+\noindent
+\textbf{Web development freelancing} \hspace{3mm} \color{gray} (2020 - present) \color{black} \\
+I built a website using the Ruby on Rails framework and deployed it on Heroku. I perform small database cleanups, maintenance and add features at my client's request about once a year.
+\smallskip \\
+
+\noindent
+\textbf{Math tutoring} \hspace{3mm} \color{gray} (2017 - 2020) \color{black} \\
+I taught mostly \nth{11} and \nth{12} grade students preparing for their IB exams.
+\smallskip \\
+
+\noindent
+\textbf{Volunteer work at Roskilde Festival in Denmark} \color{gray} (Summer 2017) \color{black} \\
+I counted and sorted used plastic cups for recycling purposes.
+\vspace{5mm}
+
+\noindent
+\begin{tabular}{l l}
+    \begin{minipage}{60mm}
+        \begin{minipage}[c]{6mm}
+            \includegraphics[width=6mm]{../images/tools-solid.pdf}
+        \end{minipage}
+        \begin{minipage}[c]{35mm}
+            {\large{Tools and Skills}}
+        \end{minipage} \\
+        \hrule
+        \medskip
+    \end{minipage} & 
+    \begin{minipage}{120mm}
+        \begin{minipage}[c]{6mm}
+            \includegraphics[width=6mm]{../images/rocket-solid.pdf}
+        \end{minipage}
+        \begin{minipage}[c]{120mm}
+            {\large{Notable Projects}} \color{gray} (See more at \href{https://nordinbelkacemi.github.io/resume}{nordinbelkacemi.github.io/resume}) \color{black}
+        \end{minipage} \\
+        \hrule
+        \medskip
+    \end{minipage} \\
+    \begin{minipage}{60mm}
+        \noindent
+        \begin{itemize}[leftmargin=5mm]
+            \item Ruby, Ruby on Rails
+            \item C
+            \item Python, NumPy
+            \item C++
+            \item Java
+            \item HTML, CSS, Sass, JavaScript
+            \item Android development, Kotlin
+            \item Flutter
+            \item C\#, .NET, SQL, T-SQL (and other data-driven systems tools)
+        \end{itemize}
+    \end{minipage} & 
+    \begin{minipage}{120mm}
+        \textbf{Compression Engine} \\
+        Written in C, it compresses text files using Huffman coding, and produces a visual graph of the Huffman table.
+        \smallskip \\
+
+        \noindent
+        \textbf{Nutri} \\
+        Final project of the Le Wagon bootcamp. This is a nutritional website we developed in a team of 3 people using the Ruby on Rails framework. I was in charge of most of the backend but also contributed to front-end tasks.
+        \smallskip \\
+
+        \noindent
+        \textbf{Dzsuzz} \\
+        A website that I built with Ruby on Rails for a client who needed to keep track of the exact amount of each ingredient needed to make juices and keep up with incoming orders. 
+    \end{minipage}
+\end{tabular}
+
+\vspace{5mm}
+\noindent
+I am actively learning the material covered in Stanford's CS229 course by watching videos of the lectures on YouTube and solving the problem sets.
 
 \end{document}
