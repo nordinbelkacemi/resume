@@ -1,9 +1,12 @@
 \documentclass{article}
 \usepackage{geometry}
 \usepackage{graphicx}
+\usepackage{epsfig}
 \usepackage[hidelinks]{hyperref}
 \usepackage{tikz}
-\geometry{a4paper, left = 12mm, top = 12mm, right = 12mm, bottom = 20mm}
+\usepackage[super]{nth}
+\usepackage{xcolor}
+\geometry{a4paper, left=12mm, top=12mm, right=12mm, bottom=20mm}
 
 \begin{document}
 
@@ -20,21 +23,37 @@
     \end{minipage} & 
     \begin{minipage}{110mm}
         \begin{minipage}[c]{5mm}
-            \includegraphics[width=5mm]{../images/email.png}
+            \includegraphics[width=5mm]{../images/envelope-regular.pdf}
         \end{minipage}
         \begin{minipage}[c]{100mm}
             \href{mailto:belkaceminordin@gmail.com}{belkaceminordin@gmail.com}
         \end{minipage} \\
         \vspace{2mm} \\
         \begin{minipage}[c]{5mm}
-            \includegraphics[width=5mm]{../images/world-wide-web.png}
+            \includegraphics[width=5mm]{../images/world-wide-web.pdf}
         \end{minipage}
         \begin{minipage}[c]{100mm}
             \href{https://nordinbelkacemi.github.io/resume}{nordinbelkacemi.github.io/resume}
         \end{minipage} \\
         \vspace{2mm} \\
-        I am a university student, who was formerly enrolled in a mechatronics degree, but made the switch to computer science. I speak fluent Hungarian, English, French and know a little bit of German. Nearing the end of my bachelor's degree, I am currently looking for a part-time job or internship in the field of AI. \\
+        I am a university student, who was formerly enrolled in a mechatronics degree, but made the switch to computer science. I speak fluent Hungarian, English, French and know a little bit of German. Now starting my \nth{6} semester, I am nearing the end of my bachelor's degree (expected to graduate in january 2023) and looking for a part-time job or internship in the field of AI.  \\
     \end{minipage}
-\end{tabular}
+\end{tabular} \\
+\vspace{4mm}\\
+\begin{minipage}[c]{7mm}
+    \includegraphics[width=7mm]{../images/graduation-cap-solid.pdf}
+\end{minipage}
+\begin{minipage}[c]{100mm}
+    Education
+\end{minipage} \\
+\hrule
+\vspace{4mm}
+
+\noindent
+\textbf{Budapest University of Technology and Economics (BME)} - \color{gray} 2019-2023 \color{black}\\
+Computer Engineering BSc.\\
+\color{gray}
+2019-2023
+\medskip \\
 
 \end{document}
