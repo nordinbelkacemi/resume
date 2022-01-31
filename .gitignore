@@ -1,0 +1,4 @@
+# LaTeX
+pdf/**
+!pdf/resume.pdf
+!pdf/resume.tex
